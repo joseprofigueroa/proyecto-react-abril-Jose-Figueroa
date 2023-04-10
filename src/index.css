@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search input[type='text'] {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: #0069d9;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter label {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.filter select {
+  padding: 10px;
+  font-size: 16px;
+}
